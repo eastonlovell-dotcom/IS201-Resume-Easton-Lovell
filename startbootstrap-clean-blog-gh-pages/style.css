@@ -1,0 +1,70 @@
+/* FONT + BASE COLORS */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #1f2937;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+    margin: 0;
+}
+
+/* HEADER */
+.header {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* NAVIGATION */
+.nav {
+    text-align: center;
+    background: white;
+    padding: 15px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #3b82f6;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* CARDS (DIVS FOR LAYOUT) */
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* IMAGE */
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* VIDEO */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
